@@ -1,11 +1,24 @@
 $(document).ready(function(){
-    $("#hiddenp,.btn2").hide();
+    $("#hiddenp1,.btn2").hide();
+    $("#hiddenp2,.btn4").hide();
+    $(".fertilizer").hide();
     $(".btn1").click(function(){
-        $(".btn2,#hiddenp").show();
+        $(".btn2,#hiddenp1").show();
     })
     $(".btn2").click(function(){
-        $(".btn2,#hiddenp").hide();
+        $(".btn2,#hiddenp1").hide();
     })
+    $(".btn3").click(function(){
+        $(".btn4,#hiddenp2").show();
+    })
+    $(".btn4").click(function(){
+        $(".btn4,#hiddenp2").hide();
     
-
+    })
+    $(".btn5").click(function(){
+        $(".fertilizer").show();
+    })
+    $(".btn6").click(function(){
+        $(".fertilizer").hide();
+    })
 })
