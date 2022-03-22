@@ -1,0 +1,12 @@
+#esther{
+    background-image: url("https://images.pexels.com/photos/7427928/pexels-photo-7427928.jpeg?w=4&h=4&fit=crop");
+}
+
+#btnsubmit{
+ padding-top: 10px;
+ padding-bottom: 50px;
+}
+
+.center{
+    text-align: center;
+}
