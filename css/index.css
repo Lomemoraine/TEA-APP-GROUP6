@@ -5,9 +5,11 @@
     background-size: cover;
 }
 
-#btnsubmit{
+#submit{
  padding-top: 10px;
- padding-bottom: 50px;
+ margin-top: 25px;
+ margin-bottom: 27px;
+ margin-left: 480px;
 }
 
 .center{
