@@ -1,5 +1,8 @@
 #esther{
-    background-image: url("https://images.pexels.com/photos/7427928/pexels-photo-7427928.jpeg?w=4&h=4&fit=crop");
+    background-image: url("/images/pexels-paul-abel-7427928.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #btnsubmit{
