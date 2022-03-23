@@ -2,9 +2,9 @@ $(document).ready(function(){
     $("#weightinput").hide();
     $("#updateRecord").click(function(){
         $("#weightinput").show();
-    });
+
     
-    // Useful in creating unique array identifier
+        // Useful in creating unique array identifier
     var identifierVar = '';
 
     function getLoginValue (){
@@ -20,9 +20,13 @@ $(document).ready(function(){
         weight += identifierVar;
 
         return date, weight;
-    }
+    };
 
+    });
     
+    
+
+
 
 
     
