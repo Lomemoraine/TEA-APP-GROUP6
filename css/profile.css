@@ -5,7 +5,7 @@ body{
 }
 
 .profile{
-     background: rgba(189, 123, 0, 0.6);
+     background: rgba(0, 189, 157, 0.561);
      width: 80vw;
      background-position: center;
 } 
@@ -17,7 +17,7 @@ body{
 }
 .p2{
     font-family: 'Indie Flower', cursive;
-    font-size: x-large;
+    font-size: large;
 }
 .raine{
     border-radius: 15%;
@@ -38,7 +38,7 @@ body{
 }
 .fleex{
     display: flex;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .farmerDetails{
     color:aquamarine;
