@@ -23,7 +23,7 @@ $(document).ready(function(){
     $(".btn4").click(function(){
         $(".btn4,#hiddenp2").hide();
         $(".btn3").show();
-    
+
 
 
 
@@ -85,5 +85,20 @@ $(document).ready(function(){
         var message = $("#message").val();
         alert(`Hey ${name}, Karibu sana TEA-APP. Just to be sure your message is : ${message}`)
       });
+
+
+    
+    $("h6").click(function(){
+        $("#sign-up").show()
+        $("#sign-in").hide()
+
+    })
+    $("h6").click(function(){
+        $("#sign-in").show()
+        $("#sign-up").hide()
+
+    })
+    
+    
 
 })
