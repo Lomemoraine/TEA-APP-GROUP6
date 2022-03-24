@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(219, 143, 43);
+
+}
+.nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   color: white;
+  
+}
+.nav li{
+   padding-left: 30px;
+}
+.nav button{
+   margin-left: 20px;
+}
+body{
+   background-image: url(/assets/tee.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+header img{
+   padding-top: 10px;
+   float: right;
+   
+}
+
+.container{
+   margin-top: 20%;
+   background-color: white;
+   height: 70vh;
+   width: 70vw;
+   color: black;
+   margin-bottom: 30px;
+   font-size:18px ;
+  
+}
+
+.content{
+   display: flex;
+   
+}
+footer{
+  background-color: rgb(20, 14, 5);
+  height: 30vh; 
+  display: flex;
+  color: antiquewhite;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+footer li{
+   list-style: none;
+}
