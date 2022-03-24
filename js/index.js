@@ -1,12 +1,12 @@
 $(document).ready(function(){
     
     alert("Lorraine")
-    $("#sign-sign-in span").click(function(){
+    $("h6").click(function(){
         $("#sign-up").show()
         $("#sign-in").hide()
 
     })
-    $("#form-sign-up span").click(function(){
+    $("h6").click(function(){
         $("#sign-in").show()
         $("#sign-up").hide()
 
