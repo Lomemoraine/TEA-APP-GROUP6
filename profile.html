@@ -48,7 +48,7 @@
           <input type="number" class="form-control" id="weight" placeholder="Enter today's net weight(kgs)" name="weight">
         </div><br>
         <div class="text-center">
-          <button type="submit" class="btn btn-success">Ok</button>
+          <button type="submit" class="btn btn-success" id="updated">Ok</button>
         </div>
       </form>
     </div><br>
@@ -58,7 +58,7 @@
 <button type="button" class="btn btn-info " id="recordbtn">Record History</button>
 </div><br>
     
-        <table class="table">
+        <table class="table" id="tableSummary">
             <thead>
               <tr>
                 <th scope="col">DATE</th>
@@ -67,16 +67,42 @@
                 <th scope="col">YEARLY TOTALS</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody id="summaryTable">
               <tr>
                 <th scope="row">1</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td id="dailyTotal" ></td>
+                <td id="monthlyTotal"></td>
+                <td id="YearlyTotal"></td>
               </tr>
               
             </tbody>
           </table>
+      <div class="text-center" id="select-to-view">
+        <select name="" id="year">
+          <option value="2016">2022</option>
+          <option value="2015">2021</option>
+          <option value="2014">2020</option>
+          <option value="2013">2019</option>
+          <option value="2012">2018</option>
+      </select>
+      <select name="" id="month">
+          <option value="0">January</option>
+          <option value="1">February</option>
+          <option value="2">March</option>
+          <option value="3">April</option>
+          <option value="4">May</option>
+          <option value="5">June</option>
+          <option value="6">July</option>
+          <option value="7">August</option>
+          <option value="8">September</option>
+          <option value="9">October</option>
+          <option value="10">Novenmer</option>
+          <option value="11">December</option>
+      </select>
+      <select name="" id="day">
+      
+      </select>    
+      </div>
   
 </div>
 
