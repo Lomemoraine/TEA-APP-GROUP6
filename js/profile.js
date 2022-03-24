@@ -34,16 +34,20 @@ $(document).ready(function(){
 
     // Data containers
     if (userName == ''){
-        var date_1 = [''];
-        var weight_1 = [''];        
-    } else if (userName == ''){
-        var date_2 = [''];
-        var weight_2 = [''];
-
+        var date = ['22/01/2022','27/01/2022','07/02/2022','10/02/2022','14/02/2022','21/02/2022'];
+        var weight = [30,45,61,32,23,41];        
+        return date, weight;
 
     } else if (userName == ''){
-        var date_3 = [''];
-        var weight_3 = [''];
+        var date = ['27/01/2022','02/02/2022','09/02/2022','13/02/2022','21/02/2022','01/03/2022'];
+        var weight = [123,56,76,46,92,107];
+        return date, weight;
+
+    } else if (userName == ''){
+        var date = ['02/01/2022','13/01/2022','19/01/2022','26/01/2022','03/02/2022','16/02/2022','19/02/2022','26/02/2022','04/03/2022'];
+        var weight = [111,56,57,113,45,65,135,32,47];
+        return date, weight;
+
     } else {
         alert("No records found")
     }
