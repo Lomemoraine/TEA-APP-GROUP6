@@ -10,10 +10,10 @@ $(document).ready(function () {
     $("#select-to-view").toggle();
   });
 
-  var userName = "jane";
+  var userName = "john";
   var sumArray;
   let recordsHistory = [];
-  // var userName = document.getElementById("#").value.toString();
+//   var userName = document.getElementById("#").value.toString();
 
   $("#name").html(userName.toUpperCase());
 

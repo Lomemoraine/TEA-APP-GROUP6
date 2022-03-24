@@ -11,7 +11,7 @@ $("#btnSignIn").click(function(){
       window.location.replace('profile.html')
       alert('logged in successfully');
     }
-    if(username== "roberst" && password==123456){
+     else if(username== "roberts" && password==123456){
       window.location.replace('profile.html')
       alert('logged in successfully');
     }
