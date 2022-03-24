@@ -1,4 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(219, 143, 43);
 
+}
+.nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   color: white;
+  
+}
+.nav li{
+   padding-left: 30px;
+}
+.nav button{
+   margin-left: 20px;
+}
 #sign-page{
     background-image: url(https://images.unsplash.com/photo-1522747776116-64ee03be1dad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     background-repeat: no-repeat;
@@ -10,6 +30,7 @@
     margin-top: 10%;
     background-color: rgba(255, 255, 255, 0.671);
     height: 60vh;
+    margin-bottom: 10%;
 }
 
 #sign h5 ,h4,h6{
@@ -27,4 +48,17 @@
 button{
     margin-top: 5%;
 
+}
+footer{
+    background-color: rgb(20, 14, 5);
+    height: 25vh; 
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+    
+}
+footer li{
+    list-style: none;
 }

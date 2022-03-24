@@ -20,10 +20,14 @@ body{
 .nav button{
    margin-left: 20px;
 }
+.container{
+    margin-top: 5%;
+}
 .profile{
      background: rgba(0, 189, 157, 0.561);
      width: 80vw;
      background-position: center;
+     margin-bottom: 10%;
 } 
 .p1{
     font-family: 'Courgette', cursive;
@@ -64,3 +68,14 @@ body{
     
     text-align: center;
 }
+footer{
+    background-color: rgb(20, 14, 5);
+    height: 25vh; 
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+  }
+  footer li{
+     list-style: none;
+  }

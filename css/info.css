@@ -2,7 +2,7 @@
     background-image: url("https://media.istockphoto.com/photos/tea-plantationchinese-tea-picture-id660088678?b=1&k=20&m=660088678&s=170667a&w=0&h=34Xp_k9u2m7ORtad_om-T2rwXKzzxDuv653lRPY1GKc=");
     background-size: cover;
     position: relative;
-  
+    margin-bottom: 5px;
     
   }
   .head h1{
@@ -77,7 +77,7 @@
 }
 footer{
     background-color: rgb(20, 14, 5);
-    height: 30vh; 
+    height: 25vh; 
     display: flex;
     color: white;
     justify-content: space-evenly;
