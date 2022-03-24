@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
    
     $("#hiddenp1,.btn2").hide();
