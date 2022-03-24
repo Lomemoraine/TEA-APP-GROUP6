@@ -27,11 +27,11 @@ OUTPUT: "Updates users produce and gives summary on table"
 ## Known Bugs
 There are no known bugs 
 ## Authors Info
-1.Lorraine Chepkemoi Simotwo(information section)
-2.Quince Adipo(Profile)
-3.Joylene Kirui(Landing Page)
-4.Faith Chemutai(Login)
-5.ESther Adwets(Contact us)
+1. Lorraine Chepkemoi Simotwo(information section)
+2. Quince Adipo(Profile)
+3. Joylene Kirui(Landing Page)
+4. Faith Chemutai(Login)
+5. ESther Adwets(Contact us)
 ## The live link
 * The demonstration of the project's live deployment is available in the link below:
  [https://Lomemoraine.github.io/TEA-APP-GROUP6/](https://Lomemoraine.github.io/TEA-APP-GROUP6/)
