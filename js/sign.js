@@ -15,7 +15,9 @@ $("#btnSignIn").click(function(){
       window.location.replace('profile.html')
       alert('logged in successfully');
     }
-    else("user not found")
+    else{
+        alert("user not found")
+    }
   //   window.location.replace('profile.html')
   //   alert('logged in successfully');
 })
