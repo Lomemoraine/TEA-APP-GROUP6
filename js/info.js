@@ -87,6 +87,11 @@ $(document).ready(function(){
 
       });
 
+      $("#btnSignIn").click(function(){
+          window.location.replace('profile.html')
+          alert('logged in successfully');
+      })
+
   
 
 })
