@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>TEA APP GROUP6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=K2D:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/profile.css">
+  </head>
+  <body>
+      <div class="container">
+      <h4 style="border: 3px; background-color: aliceblue; margin-top: 1%;" class="text-center">Welcome <span id="name"></span></h4>
+      </div>
+   
+      <div class="container-fluid profile">
+        <p class="text-center p1">Keep Your Produce Records</p>
+        <div class="fleex">
+        <img src="data:image/png;base64,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" alt="">
+         <div class="farmerDetails">
+        <p > Name: <span id="naame"></span></p>
+        <p > Email:<span id="email"></span></p>
+        <p > Total Month's Supply (kgs):<span id="totalSupplied"></span> </p>
+        <!-- <p > Yearly Net weight:<span id="cumulativenetyearly"></span> </p> -->
+        </div>
+        </div>
+        <div class="text-center">
+        <p class="p2">As a farmer,it is essential to keep your farm produce records consistently.<br>
+        Use our website and have control over your produce</p>
+        <button class="btn btn-info raine" id="updateRecord">Update Your Records</button><br>
+        
+    </div><br>
+
+    <div class="card" id="weightinput" style="width: 18rem; margin-left: 30%;">
+    <form class="form-inline">
+        <div class="form-group">
+          <label for="day">Date:</label>
+          <input type="date" class="form-control" id="day" placeholder="Enter today's date" name="day">
+        </div>
+        <div class="form-group">
+          <label for="weight">Day's net weight:</label>
+          <input type="number" class="form-control" id="weight" placeholder="Enter today's net weight(kgs)" name="weight">
+        </div><br>
+        <div class="text-center">
+
+
+          <button type="submit" id="okaybutton" class="btn btn-success">Ok</button>
+
+        </div>
+      </form>
+    </div><br>
+    <div class="history">
+      
+<button type="button" class="btn btn-info "id="month-summarybtn">Summary</button>
+<button type="button" class="btn btn-info " id="recordbtn">Record History</button>
+</div><br>
+    
+        <table class="table" id="tableSummary">
+            <thead>
+              <tr>
+                <th scope="col">DATE</th>
+                <th scope="col">DAILY TOTALS</th>
+                <th scope="col">MONTHLY TOTALS</th>
+                <th scope="col">YEARLY TOTALS</th>
+              </tr>
+            </thead>
+            <tbody id="summaryTable">
+              <tr>
+                <th scope="row">1</th>
+                <td id="dailyTotal" ></td>
+                <td id="monthlyTotal"></td>
+                <td id="YearlyTotal"></td>
+              </tr>
+              
+            </tbody>
+          </table>
+      <!-- <div class="text-center" id="select-to-view">
+        <select name="" id="year">
+          <option value="2016">2022</option>
+          <option value="2015">2021</option>
+          <option value="2014">2020</option>
+          <option value="2013">2019</option>
+          <option value="2012">2018</option>
+      </select>
+      <select name="" id="month">
+          <option value="0">January</option>
+          <option value="1">February</option>
+          <option value="2">March</option>
+          <option value="3">April</option>
+          <option value="4">May</option>
+          <option value="5">June</option>
+          <option value="6">July</option>
+          <option value="7">August</option>
+          <option value="8">September</option>
+          <option value="9">October</option>
+          <option value="10">Novenmer</option>
+          <option value="11">December</option>
+      </select>
+      <select name="" id="day">
+      
+      </select>    
+      </div> -->
+  
+</div>
+
+      <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/profile.js"></script>  
+</body>
+</html>
