@@ -87,16 +87,7 @@ $(document).ready(function(){
         alert(`Hey ${name}, Karibu sana TEA-APP. Just to be sure your message is : ${message}`)
       });
 
-    $("h6").click(function(){
-        $("#sign-up").show()
-        $("#sign-in").hide()
-
-    })
-    $("h6").click(function(){
-        $("#sign-in").show()
-        $("#sign-up").hide()
-
-    })
+  
 
 })
 
