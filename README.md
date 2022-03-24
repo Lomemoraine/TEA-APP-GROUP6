@@ -1,6 +1,6 @@
 ### TEA APP
 
-### Description .
+## Description 
 * This is an application to help tea farmers keep their produce records and find useful information on tea growing and management.
 ## Project Setup Instructions
 * Have a computer in a good working  condition that has a code editor installed preferably atom or Vs Code
