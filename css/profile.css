@@ -3,7 +3,23 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.navbar{
+    background-color: rgb(219, 143, 43);
 
+}
+.nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   color: white;
+  
+}
+.nav li{
+   padding-left: 30px;
+}
+.nav button{
+   margin-left: 20px;
+}
 .profile{
      background: rgba(0, 189, 157, 0.561);
      width: 80vw;
