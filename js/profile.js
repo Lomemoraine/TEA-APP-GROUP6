@@ -4,25 +4,10 @@ $(document).ready(function(){
         $("#weightinput").show
 
     var userName = '';
-    var ipputDate = '';
+    var inputDate = '';
     var inputTime = '';
 
-    // Data containers
-    if (userName == ''){
-        var date_1 = [''];
-        var weight_1 = [''];
-
-        
-    } else if (userName == ''){
-        var date_2 = [''];
-        var weight_2 = [''];
-    } else if (userName == ''){
-        var date_3 = [''];
-        var weight_3 = [''];
-    } else {
-        alert("No records found")
-    }
-
+    $("#name").text(userName);
 
     // Summation of the net weight function
     function sumAll(){
@@ -47,7 +32,23 @@ $(document).ready(function(){
 
     }
 
-    
+    // Data containers
+    if (userName == ''){
+        var date_1 = [''];
+        var weight_1 = [''];        
+    } else if (userName == ''){
+        var date_2 = [''];
+        var weight_2 = [''];
+
+
+    } else if (userName == ''){
+        var date_3 = [''];
+        var weight_3 = [''];
+    } else {
+        alert("No records found")
+    }
+
+
     
     });
     
