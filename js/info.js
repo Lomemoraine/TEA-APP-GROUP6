@@ -85,13 +85,7 @@ $(document).ready(function(){
         var email = $("#email").val();
         var message = $("#message").val();
         alert(`Hey ${name}, Karibu sana TEA-APP. Just to be sure your message is : ${message}`)
-      });
-
-<<<<<<< HEAD:js/info.js
-})
-=======
-
-    
+      });  
     $("h6").click(function(){
         $("#sign-up").show()
         $("#sign-in").hide()
@@ -101,9 +95,7 @@ $(document).ready(function(){
         $("#sign-in").show()
         $("#sign-up").hide()
 
-    })
-    
-    
+    })   
 
 })
->>>>>>> 8039b847e720b19c8a7143631c6e6980c0107f0b:js/index.js
+

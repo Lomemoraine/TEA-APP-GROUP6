@@ -10,13 +10,27 @@
       color: greenyellow;
       background-color: ghostwhite;
       text-align: center;
-     
-      
-  
+ 
   }
+.navbar{
+    background-color: rgb(219, 143, 43);
+
+}
+.nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   color: white;
+  
+}
+.nav li{
+   padding-left: 30px;
+}
+.nav button{
+   margin-left: 20px;
+}
   .content1 {
       width: 92vw;
-      
       position: relative;
       background: rgba(0, 189, 173, 0.7);
       margin-top: 2%;
@@ -60,5 +74,15 @@
       text-align: center;
       font-size: larger;
       
-  }
-  
+}
+footer{
+    background-color: rgb(20, 14, 5);
+    height: 30vh; 
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+footer li{
+    list-style: none;
+}

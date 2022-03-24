@@ -31,8 +31,6 @@ header img{
    float: right;
    
 }
-
-<<<<<<< HEAD
 .container{
    margin-top: 20%;
    background-color: white;
@@ -52,7 +50,7 @@ footer{
   background-color: rgb(20, 14, 5);
   height: 30vh; 
   display: flex;
-  color: antiquewhite;
+  color: white;
   justify-content: space-evenly;
   padding-top: 30px;
 }
